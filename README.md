@@ -1,3 +1,0 @@
-# josephams.github.io
-
-## Soundz
