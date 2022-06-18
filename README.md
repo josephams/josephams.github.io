@@ -4,7 +4,9 @@
 
 [site](https://josephams.github.io/start)
 
-@aetupe77 josephamserg@proton.me
+@aetupe77 
+
+josephamserg@proton.me
 
 moctapes [1](https://moctapes.bandcamp.com/releases) [2](https://soundcloud.com/moctapes)
 
