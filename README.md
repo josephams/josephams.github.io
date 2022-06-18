@@ -4,7 +4,7 @@
 
 [site](https://josephams.github.io/start)
 
-some socials @aetupe77 
+@aetupe77 
 
 josephamserg@proton.me
 
@@ -14,4 +14,4 @@ moctapes [1](https://moctapes.bandcamp.com/releases) [2](https://soundcloud.com/
 
 [aetupe77](https://soundcloud.com/aetupe77)
 
-live sound event @ootputs
+@ootputs
