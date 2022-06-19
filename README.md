@@ -9,7 +9,7 @@ josephamserg@proton.me  |  @aetupe77
 
 
 
-[linkedIn] {https://www.linkedin.com/in/joseph-sergi-6b3a22212/)
+[linkedIn](https://www.linkedin.com/in/joseph-sergi-6b3a22212/)
 
 [vimeo](https://vimeo.com/user90815478)
 
