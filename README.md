@@ -2,7 +2,7 @@
 
 ## sounds
 
-[site](https://josephams.github.io/start)
+[site](https://josephams.github.io/home)
 
 josephamserg@proton.me  |  @aetupe77
 
