@@ -6,323 +6,115 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="shortcut icon" href="https://achatlessons.hotglue.me/img/favicon.ico">
 <link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/css/reset.min.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/css/farbtastic.css">
 <link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/css/main.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/css/glue.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/css/edit.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/modules/download/download.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/modules/iframe/iframe-edit.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/modules/page/page-edit.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/modules/text/text-edit.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/modules/video/video-edit.css">
-<link rel="stylesheet" type="text/css" href="https://achatlessons.hotglue.me/modules/webvideo/webvideo-edit.css">
-<style type="text/css">
-	@font-face {
-		font-family: 'LatinModern';
-		font-style: normal;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/lmsans10-regular-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'LatinModern';
-		font-style: italic;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/lmsans10-oblique-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSansMono';
-		font-style: italic;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/dejavusansmono-boldoblique-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSansMono';
-		font-style: normal;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/dejavusansmono-bold-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSansMono';
-		font-style: italic;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/dejavusansmono-oblique-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSansMono';
-		font-style: normal;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/dejavusansmono-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSerif';
-		font-style: italic;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/dejavuserif-bolditalic-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSerif';
-		font-style: normal;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/dejavuserif-bold-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSerif';
-		font-style: italic;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/dejavuserif-italic-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSerif';
-		font-style: normal;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/dejavuserif-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSans';
-		font-style: italic;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/dejavusans-boldoblique-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSans';
-		font-style: normal;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/dejavusans-bold-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSans';
-		font-style: italic;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/dejavusans-oblique-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'DejaVuSans';
-		font-style: normal;
-		font-weight: normal;
-		src: url(https://achatlessons.hotglue.me/img/dejavusans-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'LatinModern';
-		font-style: italic;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/lmsans10-boldoblique-webfont.woff) format("woff");
-	}
-	@font-face {
-		font-family: 'LatinModern';
-		font-style: normal;
-		font-weight: bold;
-		src: url(https://achatlessons.hotglue.me/img/lmsans10-bold-webfont.woff) format("woff");
-	}
-	.glue-font-woff-DejaVuSans {
-		font-family: 'DejaVuSans';
-	}
-	.glue-font-woff-DejaVuSerif {
-		font-family: 'DejaVuSerif';
-	}
-	.glue-font-woff-LatinModern {
-		font-family: 'LatinModern';
-	}
-	.glue-font-woff-DejaVuSansMono {
-		font-family: 'DejaVuSansMono';
-	}
-</style>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/js/jquery-1.5.2.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/js/jquery-ui-1.8.6.custom.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/js/farbtastic.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/js/jquery.xcolor-1.2.1.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/js/glue.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/js/edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/revisions_browser/revisions_browser-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/video/video-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/user_code/user_code-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/transform/transform.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/text/text-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/lock/lock.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/page_browser/page_browser-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/page/page-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/object/object-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/image/image-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/iframe/iframe-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/download/download-edit.min.js"></script>
-<script type="text/javascript" src="https://achatlessons.hotglue.me/modules/webvideo/webvideo-edit.min.js"></script>
-<script type="text/javascript">
-	var $ = $ || {};
-	$.glue = $.glue || {};
-	$.glue.base_url = "https:\/\/achatlessons.hotglue.me\/";
-	$.glue.conf = $.glue.conf || {};
-	$.glue.conf.image = $.glue.conf.image || {};
-	$.glue.conf.image.resizing = false;
-	$.glue.conf.image.upload_resize_larger = "120%";
-	$.glue.conf.image.upload_resize_to = "80%";
-	$.glue.conf.object = $.glue.conf.object || {};
-	$.glue.conf.object.default_colors = ["#61b9cf","#ff00ff","#ffff00"];
-	$.glue.conf.page = $.glue.conf.page || {};
-	$.glue.conf.page.default_grid_x = 50;
-	$.glue.conf.page.default_grid_y = 50;
-	$.glue.conf.page.guides_x = [];
-	$.glue.conf.page.guides_y = [];
-	$.glue.conf.show_frontend_errors = true;
-	$.glue.conf.text = $.glue.conf.text || {};
-	$.glue.conf.text.auto_br = true;
-	$.glue.page = "artworks.head";
-	$.glue.version = [1,0,4];
-</script>
 </head>
 <body id="artworks.head" class="page">
-  <a href="https://josephams.github.io/artworks">
-	<div id="artworks.head.165540955186" class="text resizable object" style="background-color: rgb(178, 87, 87); font-size: 25px; height: 47px; left: 24px; position: absolute; top: 32px; width: 101px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">art works</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	<a href="https://josephams.github.io/artworks">
+		<div id="artworks.head.165540955186" class="text resizable object" style="background-color: rgb(178, 87, 87); font-size: 25px; height: 47px; left: 24px; position: absolute; top: 32px; width: 101px; z-index: 100;">
 			art works
 		</div>
-    </a>
-	</div>
-  <a href="https://josephams.github.io/screen">
-	<div id="artworks.head.165540969434" class="text resizable object" style="background-color: rgb(108, 155, 105); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 21px; height: 58px; left: 25px; position: absolute; top: 117px; width: 100px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">sound design / soundtrack</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://josephams.github.io/screen">
+		<div id="artworks.head.165540969434" class="text resizable object" style="background-color: rgb(108, 155, 105); font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 21px; height: 58px; left: 25px; position: absolute; top: 117px; width: 100px; z-index: 100;">
 			sound design / soundtrack
 		</div>
-    </a>
-	</div>
-  <a href="https://josephams.github.io/dsp">
-	<div id="artworks.head.165540974413" class="text resizable object" style="background-color: rgb(149, 154, 208); font-size: 24px; height: 42px; left: 25px; position: absolute; top: 75px; width: 100px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">dsp / coding</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://josephams.github.io/dsp">
+		<div id="artworks.head.165540974413" class="text resizable object" style="background-color: rgb(149, 154, 208); font-size: 24px; height: 42px; left: 25px; position: absolute; top: 75px; width: 100px; z-index: 100;">
 			dsp / coding
 		</div>
-    </a>
-	</div>
-  <a href="https://josephams.github.io/releases">
-	<div id="artworks.head.165541007869" class="text resizable object" style="background-color: rgb(155, 109, 182); font-size: 24px; height: 42px; left: 25px; position: absolute; top: 219px; width: 101px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">releases</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://josephams.github.io/releases">
+		<div id="artworks.head.165541007869" class="text resizable object" style="background-color: rgb(155, 109, 182); font-size: 24px; height: 42px; left: 25px; position: absolute; top: 219px; width: 101px; z-index: 100;">
 			releases
 		</div>
-    </a>
-	</div>
-  <a href="https://josephams.github.io/video">
-	<div id="artworks.head.165541008364" class="text resizable object" style="background-color: rgb(169, 134, 112); font-size: 26px; height: 44px; left: 25px; position: absolute; top: 175px; width: 101px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">video works</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://josephams.github.io/video">
+		<div id="artworks.head.165541008364" class="text resizable object" style="background-color: rgb(169, 134, 112); font-size: 26px; height: 44px; left: 25px; position: absolute; top: 175px; width: 101px; z-index: 100;">
 			video works
 		</div>
-    </a>
-	</div>
-  <a href="https://soundcloud.com/aetupe77">
-	<div id="artworks.head.165541017478" class="text resizable object" style="background-color: transparent; height: 44px; left: 23px; position: absolute; top: 539px; width: 101px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">soundcloud</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://soundcloud.com/aetupe77">
+		<div id="artworks.head.165541017478" class="text resizable object" style="background-color: transparent; height: 44px; left: 23px; position: absolute; top: 539px; width: 101px; z-index: 100;">
 			soundcloud
 		</div>
-    </a>
-	</div>
-  	<a href="https://vimeo.com/user90815478">
-	<div id="artworks.head.165541018218" class="text resizable object" style="background-color: transparent; height: 42px; left: 23px; position: absolute; top: 582px; width: 100px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">vimeo</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://vimeo.com/user90815478">
+		<div id="artworks.head.165541018218" class="text resizable object" style="background-color: transparent; height: 42px; left: 23px; position: absolute; top: 582px; width: 100px; z-index: 100;">
 			vimeo
 		</div>
-    </a>
-	</div>
-  <a href="https://moctapes.bandcamp.com/releases">
-	<div id="artworks.head.165541018788" class="text resizable object" style="background-color: transparent; height: 42px; left: 24px; position: absolute; top: 624px; width: 100px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">bandcamp</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://moctapes.bandcamp.com/releases">
+		<div id="artworks.head.165541018788" class="text resizable object" style="background-color: transparent; height: 42px; left: 24px; position: absolute; top: 624px; width: 100px; z-index: 100;">
 			bandcamp
 		</div>
-    </a>
-	</div>
-  <a href="https://github.com/josephams">
-	<div id="artworks.head.165541019241" class="text resizable object" style="background-color: transparent; height: 42px; left: 24px; position: absolute; top: 665px; width: 100px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">github</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	</a>
+	<a href="https://github.com/josephams">
+		<div id="artworks.head.165541019241" class="text resizable object" style="background-color: transparent; height: 42px; left: 24px; position: absolute; top: 665px; width: 100px; z-index: 100;">
 			github
 		</div>
-    </a>
-	</div>
-	<div id="artworks.head.165541044499" class="text resizable object" style="background-color: transparent; color: rgb(255, 5, 5); font-size: 62px; height: 100.099px; left: 199px; line-height: 0em; opacity: 0.78; position: absolute; top: 74px; width: 621px; z-index: 101;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">artworks</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
-			artworks
-		</div>
+	</a>
+	<div id="artworks.head.165541044499" class="text resizable object" style="background-color: transparent; color: rgb(255, 5, 5); font-size: 62px; height: 100.099px; left: 200px; line-height: 0em; opacity: 0.78; position: absolute; top: 72px; width: 621px; z-index: 101;">
+		artworks
 	</div>
 	<div id="artworks.head.165541219884" class="text resizable object" style="background-color: transparent; font-size: 27px; height: 34px; left: 202px; position: absolute; top: 153px; width: 153px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">Temporal Disjunctions</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
-			Temporal Disjunctions
-		</div>
+		Temporal Disjunctions
 	</div>
-	<div id="artworks.head.165541223748" class="text resizable object" style="background-color: transparent; font-size: 27px; height: 34px; left: 201px; position: absolute; top: 859px; width: 153px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">The Anti-Doxa</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
-			The Anti-Doxa
-		</div>
+	<div id="artworks.head.165541223748" class="text resizable object" style="background-color: transparent; font-size: 27px; height: 34px; left: 202px; position: absolute; top: 1278px; width: 153px; z-index: 100;">
+		The Anti-Doxa
 	</div>
 	<div id="artworks.head.165541464096" class="text resizable object" style="background-color: transparent; height: 100px; left: 202px; opacity: 0.5; position: absolute; top: 203px; width: 337px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">What are the consequences of the temporal being out of sync, and what kind of spirits may be lurking? Through an exploration of the hauntological, this project is concerned with the Temporal Disjunctions that are found within society and culture today.</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
-			What are the consequences of the temporal being out of sync, and what kind of spirits may be lurking? Through an exploration of the hauntological, this project is concerned with the Temporal Disjunctions that are found within society and culture today.
-		</div>
+		What are the consequences of the temporal being out of sync, and what kind of spirits may be lurking? Through an exploration of the hauntological, this project is concerned with the Temporal Disjunctions that are found within society and culture today.
 	</div>
-	<div id="artworks.head.165541468924" class="text resizable object" style="background-color: transparent; height: 100px; left: 203px; opacity: 0.5; position: absolute; top: 903px; width: 337px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">The Anti-Doxa is concerned with themes of cognitive dissonance, ethical bias and the oppression of noise across the socio-political spectrum. Inspired by radical care politics, The Anti-Doxa interrogates our values and questions our engagement/disengagement with the entirety of world conflicts.  </textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
-			The Anti-Doxa is concerned with themes of cognitive dissonance, ethical bias and the oppression of noise across the socio-political spectrum. Inspired by radical care politics, The Anti-Doxa interrogates our values and questions our engagement/disengagement with the entirety of world conflicts.  
-		</div>
+	<div id="artworks.head.165541468924" class="text resizable object" style="background-color: transparent; height: 100px; left: 204px; opacity: 0.5; position: absolute; top: 1329px; width: 394px; z-index: 100;">
+		The Anti-Doxa is concerned with themes of cognitive dissonance, ethical bias and the oppression of noise across the socio-political spectrum. Inspired by radical care politics, The Anti-Doxa interrogates our values and questions our engagement/disengagement with the entirety of world conflicts.  
 	</div>
-  <a href="https://josephams.github.io/live">
-	<div id="artworks.head.165541473844" class="text resizable object" style="background-color: rgb(97, 185, 207); font-size: 33px; height: 19px; left: 23px; position: absolute; top: 834px; width: 52px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">live</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	<a href="https://josephams.github.io/live">
+		<div id="artworks.head.165541473844" class="text resizable object" style="background-color: rgb(97, 185, 207); font-size: 33px; height: 19px; left: 23px; position: absolute; top: 834px; width: 52px; z-index: 100;">
 			live
 		</div>
-    </a>
+	</a>
+	<div id="artworks.head.165541536983" class="text resizable object" style="background-color: transparent; font-size: 27px; height: 34px; left: 201px; position: absolute; top: 2007px; width: 463px; z-index: 100;">
+		The Tuning Of Soils (Soundwork for Group Ecology Project
 	</div>
-	<div id="artworks.head.165541536983" class="text resizable object" style="background-color: transparent; font-size: 27px; height: 34px; left: 201px; position: absolute; top: 1532px; width: 463px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">The Tuning Of Soils (Soundwork for Group Ecology Project</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
-			The Tuning Of Soils (Soundwork for Group Ecology Project
-		</div>
+	<div id="artworks.head.165541538347" class="text resizable object" style="background-color: transparent; height: 271px; left: 203px; opacity: 0.5; position: absolute; top: 2070px; width: 1491px; z-index: 100;">
+		This audio piece is situated around the topic of Extractivism. Taking inspiration from speculative science-fiction novels, these tracks imagine a distant future, where humans have left Earth to explore and colonise other planets. They now exploit other worlds and their indigenous communities, destroying all plant and wildlife in their ultimate quest for supremacy. This piece looks deep into the future, to a time where there is nothing left. Nothing but vast, empty lands. Lands conquered by machines that seldom stop roaming, searching for the final elements before parting to another world. <br>
+		<br>
+		Upcoming release featuring 5 tracks in total.<br>
+		<br>
+		On MOCTAPES: https://moctapes.bandcamp.com/
 	</div>
-	<div id="artworks.head.165541538347" class="text resizable object" style="background-color: transparent; height: 271px; left: 200px; opacity: 0.5; position: absolute; top: 1582px; width: 1491px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">This audio piece is situated around the topic of Extractivism. Taking inspiration from speculative science-fiction novels, these tracks imagine a distant future, where humans have left Earth to explore and colonise other planets. They now exploit other worlds and their indigenous communities, destroying all plant and wildlife in their ultimate quest for supremacy. This piece looks deep into the future, to a time where there is nothing left. Nothing but vast, empty lands. Lands conquered by machines that seldom stop roaming, searching for the final elements before parting to another world. &#10;&#10;Upcoming release featuring 5 tracks in total.&#10;&#10;On MOCTAPES: https://moctapes.bandcamp.com/</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
-			This audio piece is situated around the topic of Extractivism. Taking inspiration from speculative science-fiction novels, these tracks imagine a distant future, where humans have left Earth to explore and colonise other planets. They now exploit other worlds and their indigenous communities, destroying all plant and wildlife in their ultimate quest for supremacy. This piece looks deep into the future, to a time where there is nothing left. Nothing but vast, empty lands. Lands conquered by machines that seldom stop roaming, searching for the final elements before parting to another world. <br>
-			<br>
-			Upcoming release featuring 5 tracks in total.<br>
-			<br>
-			On MOCTAPES: https://moctapes.bandcamp.com/
-		</div>
+	<div id="artworks.head.165558116936" class="image resizable object" style="height: 327px; left: 201px; position: absolute; top: 404px; width: 444.385px; z-index: 100;">
+		<img src="https://achatlessons.hotglue.me/?artworks.head.165558116936" alt="" style="border: 0px; height: 100%; margin: 0px; padding: 0px; width: 100%;">
 	</div>
-	<div id="artworks.head.165558116936" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558116936); background-repeat: no-repeat; background-size: 100% 100%; height: 571px; left: 551px; position: absolute; top: 151px; width: 777.328px; z-index: 100;">
+	<div id="artworks.head.165558121980" class="image resizable object" style="height: 351px; left: 201px; position: absolute; top: 752px; width: 471.022px; z-index: 100;">
+		<img src="https://achatlessons.hotglue.me/?artworks.head.165558121980" alt="" style="border: 0px; height: 100%; margin: 0px; padding: 0px; width: 100%;">
 	</div>
-	<div id="artworks.head.165558121980" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558121980); background-repeat: no-repeat; background-size: 100% 100%; height: 278px; left: 1351px; position: absolute; top: 150px; width: 372px; z-index: 100;">
+	<div id="artworks.head.165558122741" class="image resizable object" style="height: 351px; left: 1234px; position: absolute; top: 750px; width: 466.837px; z-index: 101;">
+		<img src="https://achatlessons.hotglue.me/?artworks.head.165558122741" alt="" style="border: 0px; height: 100%; margin: 0px; padding: 0px; width: 100%;">
 	</div>
-	<div id="artworks.head.165558122741" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558122741); background-repeat: no-repeat; background-size: 100% 100%; height: 282px; left: 1349px; position: absolute; top: 438px; width: 374.309px; z-index: 100;">
+	<div id="artworks.head.165558150874" class="image resizable object" style="height: 394px; left: 200px; position: absolute; top: 1458px; width: 474.361px; z-index: 100;">
+		<img src="https://achatlessons.hotglue.me/?artworks.head.165558150874" alt="" style="border: 0px; height: 100%; margin: 0px; padding: 0px; width: 100%;">
 	</div>
-	<div id="artworks.head.165558124043" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558124043); background-position: 118px -3px; background-repeat: no-repeat; background-size: 100% 100%; height: 391px; left: 83px; position: absolute; top: 334px; width: 518.827px; z-index: 100;">
+	<div id="artworks.head.165558179744" class="image resizable object" style="height: 440.944px; left: 201px; position: absolute; top: 2261px; width: 440px; z-index: 100;">
+		<img src="https://achatlessons.hotglue.me/?artworks.head.165558179744" alt="" style="border: 0px; height: 100%; margin: 0px; padding: 0px; width: 100%;">
 	</div>
-	<div id="artworks.head.165558150299" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558150299); background-repeat: no-repeat; background-size: 100% 100%; height: 381px; left: 201px; position: absolute; top: 1050px; width: 340.282px; z-index: 100;">
-	</div>
-	<div id="artworks.head.165558150874" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558150874); background-repeat: no-repeat; background-size: 100% 100%; height: 577px; left: 554px; position: absolute; top: 853px; width: 707.117px; z-index: 100;">
-	</div>
-	<div id="artworks.head.165558179744" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558179744); background-repeat: no-repeat; background-size: 100% 100%; height: 467px; left: 202px; position: absolute; top: 1749px; width: 466px; z-index: 100;">
-	</div>
-	<div id="artworks.head.165558363880" class="image resizable object" style="-moz-background-size: 100% 100%; background-image: url(https://achatlessons.hotglue.me/?artworks.head.165558363880); background-position: 105px 0px; background-repeat: no-repeat; background-size: 100% 100%; height: 458.255px; left: 865px; position: absolute; top: 921px; width: 853px; z-index: 99;">
-	</div>
-  <a href="https://josephams.github.io/home">
-	<div id="artworks.head.16555883454" class="text resizable object" style="background-color: rgb(97, 185, 207); font-size: 33px; height: 19px; left: 22px; position: absolute; top: 884px; width: 52px; z-index: 100;">
-		<textarea class="glue-text-input" style="display: none; height: 100%; width: 100%;">home</textarea>
-		<div class="glue-text-render" style="height: 100%; width: 100%;">
+	<a href="https://josephams.github.io/home">
+		<div id="artworks.head.16555883454" class="text resizable object" style="background-color: rgb(97, 185, 207); font-size: 33px; height: 19px; left: 22px; position: absolute; top: 884px; width: 52px; z-index: 100;">
 			home
 		</div>
-    </a>
-	</div>
-	<div id="artworks.head.165564831218" class="webvideo resizable object" style="height: 548.317px; left: 695px; position: absolute; top: 1669px; width: 1029px; z-index: 100;">
+	</a>
+	<div id="artworks.head.165564831218" class="webvideo resizable object" style="height: 548.317px; left: 670px; position: absolute; top: 2152px; width: 1029px; z-index: 100;">
 		<iframe src="//player.vimeo.com/video/721788700?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" style="border-width: 0px; height: 100%; position: absolute; width: 100%;"></iframe>
-		<div class="glue-webvideo-handle glue-ui" title="drag here">
-		</div>
+	</div>
+	<div id="artworks.head.165903945514" class="webvideo resizable object" style="height: 783px; left: 657px; position: absolute; top: 47px; width: 1042.34px; z-index: 100;">
+		<iframe src="//player.vimeo.com/video/724968989?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" style="border-width: 0px; height: 100%; position: absolute; width: 100%;"></iframe>
+	</div>
+	<div id="artworks.head.165904008620" class="image resizable object" style="height: 350px; left: 722px; position: absolute; top: 752px; width: 467.308px; z-index: 100;">
+		<img src="https://achatlessons.hotglue.me/?artworks.head.165904008620" alt="" style="border: 0px; height: 100%; margin: 0px; padding: 0px; width: 100%;">
+	</div>
+	<div id="artworks.head.165904021335" class="webvideo resizable object" style="height: 752.074px; left: 700px; position: absolute; top: 1192px; width: 1001px; z-index: 100;">
+		<iframe src="//player.vimeo.com/video/721931874?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" style="border-width: 0px; height: 100%; position: absolute; width: 100%;"></iframe>
 	</div>
 </body>
 </html>
