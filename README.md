@@ -4,7 +4,7 @@
 
 [site](https://josephams.github.io/home)
 
-josephamserg@proton.me 
+josephams@proton.me
 
 [linkedIn](https://www.linkedin.com/in/joseph-sergi-6b3a22212/)
 
