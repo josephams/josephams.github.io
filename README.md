@@ -14,6 +14,6 @@ josephams@proton.me
 
 [aetupe77](https://soundcloud.com/aetupe77)
 
-ootputs [1](https://ootputs.bandcamp.com/releases) [2](https://soundcloud.com/moctapes)
+ootputs [1](https://ootputs.bandcamp.com/releases) [2](https://soundcloud.com/ootputs)
 
 @ootputs
