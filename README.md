@@ -6,7 +6,7 @@
 
 josephams@proton.me
 
-@aetupe__   |   @ootputs
+@aetupe__
 
 [linkedIn](https://www.linkedin.com/in/joseph-sergi-6b3a22212/)
 
@@ -14,3 +14,4 @@ josephams@proton.me
 
 ootputs [1](https://ootputs.bandcamp.com/releases) [2](https://soundcloud.com/ootputs)
 
+@ootputs
