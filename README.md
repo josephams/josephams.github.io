@@ -4,8 +4,6 @@
 
 [portfolio](https://josephams.github.io/portfolio)
 
-[cv] (https://github.com/josephams/josephams.github.io/blob/main/CV_JosephSergi.pdf) 
-
 josephams@proton.me
 
 @aetupe__
