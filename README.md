@@ -4,7 +4,7 @@
 
 [portfolio](https://josephams.github.io/portfolio)
 
-[cv/resume]([https://josephams.github.io/portfolio](https://github.com/josephams/josephams.github.io/blob/main/CV_JosephSergi.pdf))
+[cv]([https://josephams.github.io/portfolio](https://github.com/josephams/josephams.github.io/blob/main/CV_JosephSergi.pdf))
 
 josephams@proton.me
 
