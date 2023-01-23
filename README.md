@@ -4,7 +4,7 @@
 
 [sound design portfolio](https://josephams.github.io/sound-design-portfolio)
 
-[visual design portfolio]
+[visual design portfolio](https://josephams.github.io/visual-design-portfolio)
 
 josephams@proton.me
 
