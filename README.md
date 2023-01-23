@@ -2,7 +2,9 @@
 
 ## sounds
 
-[portfolio](https://josephams.github.io/portfolio)
+[sound design portfolio](https://josephams.github.io/sound-design-portfolio)
+
+[visual design portfolio]
 
 josephams@proton.me
 
